@@ -1,0 +1,166 @@
+.p-top {
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    height: 800px;
+}
+
+.h-content {
+    width: 90%;
+    margin-top: 2rem !important;
+    margin-left: 79px;
+    margin-right: 1px;
+}
+
+.back-image-profile {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.image-profile {
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    top: -100px;
+    margin-left: 15%;
+    width: 14rem;
+    height: 14rem;
+}
+
+.p-user {
+    position: relative;
+    margin: auto;
+    left: 39%;
+    top: -210px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    display: inline;
+}
+
+.p-nombre {
+    position: relative;
+    margin: auto;
+    left: 39%;
+    top: -295px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    display: inline;
+}
+
+.p-user-verified {
+    position: relative;
+    margin: auto;
+    left: 39%;
+    top: -210px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    display: inline;
+}
+
+.p-editar {
+    position: relative;
+    margin: auto;
+    left: 72%;
+    top: -220px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    display: inline;
+}
+
+.p-creador {
+    position: relative;
+    margin: auto;
+    left: 52%;
+    top: -218px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    display: inline;
+    padding: 3px;
+}
+
+.button_white {
+    padding: 4px;
+    background-color: #EEE8E8;
+    border-radius: 10%;
+    border: 1px solid #CDCDCD;
+    cursor: pointer;
+}
+
+.button_white:hover {
+    background-color: #D7D4D1;
+    border-radius: 10%;
+    border: 1px solid #CDCDCD;
+    cursor: pointer;
+}
+
+.p-likes {
+    position: relative;
+    margin: auto;
+    left: 37%;
+    top: -215px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    display: inline;
+}
+
+.p-infor {
+    position: relative;
+    margin: auto;
+    left: 39%;
+    top: -190px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    display: inline;
+}
+
+.p-infor a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 1rem;
+}
+
+.var {
+    border-top: 1px solid gray;
+    width: 80%;
+    margin: auto;
+    top: -140px;
+    position: relative;
+}
+
+.general-info {
+    background-color: #EBE7E7;
+    border-radius: 10px;
+    height: 290px;
+    position: relative;
+    top: -250px;
+    width: 30%;
+    left: 60%;
+    margin-right: 8.3%;
+    padding: 1rem;
+}
+
+.general-info i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.p-location {
+    top: -110px;
+    left: 60%;
+    margin-bottom: .5rem;
+}
+
+.p-description {
+    margin-left: 8.3%;
+    margin-right: 8.3%;
+    position: relative;
+    width: 45%;
+    left: 0%;
+    top: -210px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}

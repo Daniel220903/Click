@@ -1,0 +1,153 @@
+.box {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 100px;
+    border-radius: 25px 25px 25px 25px;
+    border: 3px solid black;
+    padding-left: 10px;
+    padding-bottom: 0;
+    background-color: #060b23;
+}
+
+
+/*
+.search-box {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    left: 35%;
+    right: 40%;
+    top: 20%;
+    display: inline;
+}*/
+
+
+/*Diseño del input de buscar*/
+
+.form {
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+    left: 35%;
+    right: 40%;
+    top: 8px;
+    margin-bottom: 10px;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e1e5ee;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+}
+
+input:hover {
+    border-color: #adffff;
+}
+
+
+/* Change border when input focus*/
+
+input:focus {
+    border-color: #18ffff;
+}
+
+label {
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    padding: 0 0.5rem;
+    color: white;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: #060b23;
+}
+
+
+/* 
+    1. When the input is in the focus state
+    reduce the size of the label and move upwards 
+    
+    2. Keep label state when content is in input field 
+    */
+
+.form__input:focus~.form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus)~.form__label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+}
+
+
+/*DISEÑO DEL BOTON DE ENVIAR BUSQUEDA*/
+
+.btn {
+    position: relative;
+    display: inline;
+    left: 42%;
+    right: 38%;
+    height: 20px;
+    width: 140px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    font-size: 12px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid #0000;
+    bottom: 0px;
+    z-index: 0;
+    font-weight: 10;
+    cursor: pointer;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #9A2119;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.btn--2:hover {
+    background-color: #9A2119;
+    box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+    color: #fff;
+}
+
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(32, 226, 215, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+    }
+}
+
+
+/*DISEÑO DE LA TABLA DE RESULTADOS*/
+
+.contanier-search {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}

@@ -1,0 +1,241 @@
+body {
+    background-color: #EBEDF0;
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+}
+
+.h-content {
+    width: 85%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.h-left {
+    width: 60%;
+    float: left;
+}
+
+.hl-cont {
+    background-color: #FFF;
+    width: 100%;
+    margin-bottom: 4.063rem;
+    float: left;
+    border: 1px solid #E6E6E6;
+    padding: 1rem .8rem;
+    border-radius: 1rem;
+}
+
+.hl-top {
+    width: 100%;
+    height: 60px;
+}
+
+.hl-profile {
+    width: 10%;
+    height: 60px;
+    float: left;
+    position: relative;
+}
+
+.hl-pic {
+    width: 100%;
+    position: absolute;
+    top: 12%;
+}
+
+.hl-username {
+    width: 90%;
+    height: 60px;
+    float: left;
+    position: relative;
+}
+
+.hl-name {
+    margin-left: 10px;
+    width: 100%;
+    height: 30px;
+    float: left;
+    color: #262626;
+    position: absolute;
+    top: 10%;
+    font-weight: 600;
+}
+
+.hl-name a:link {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 600;
+}
+
+.hl-name a:visited {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 600;
+}
+
+.hl-location {
+    margin-left: 10px;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 10px;
+    float: left;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    color: #262626;
+    position: absolute;
+    top: 50%;
+    font-size: 12px;
+    display: block;
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+}
+
+.delete i {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+}
+
+.hl-menu {
+    width: 100%;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.hl-icon {
+    width: 33.3%;
+    float: left;
+}
+
+.hl-middle {
+    width: 100%;
+}
+
+.hl-bottom {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+}
+
+.hl-section-likes {
+    width: 100%;
+    height: 44px;
+}
+
+.hl-section-likes img {
+    padding: 10px;
+}
+
+
+/*----------------------------------------------*/
+
+.h-header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #1d1b31;
+}
+
+.h-logo {
+    background-color: #1d1b31;
+    display: inline;
+    position: absolute;
+    top: 1.3%;
+    left: 7%;
+}
+
+.h-sub {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin-right: 12%;
+    top: 1%;
+    width: 80px;
+    align-items: center;
+}
+
+.h-sub a {
+    text-decoration: none;
+    font-size: 32px;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+.h-sub:hover {
+    background: #FFF;
+    transition: all 1s ease;
+    color: #11101d;
+}
+
+.h-sub:hover a {
+    transition: all 1s ease;
+    color: #11101d;
+}
+
+.h-noti {
+    width: 80px;
+    position: absolute;
+    text-align: center;
+    right: 20%;
+    top: 1%;
+}
+
+.h-noti a {
+    text-decoration: none;
+    font-size: 32px;
+    color: #FFF;
+}
+
+.h-noti:hover {
+    background: #FFF;
+    transition: all 1s ease;
+    color: #11101d;
+}
+
+.h-noti:hover a {
+    transition: all 1s ease;
+    color: #11101d;
+}
+
+
+/*Aqui termina el diseè´–o de las publicaciones*/
+
+
+/*Aqui empieza el diseè´–o de el contenedor de la derecha*/
+
+.h-right {
+    width: 37%;
+    float: right;
+    background-color: #FFF;
+    border-radius: 3px;
+    border-radius: 1rem;
+    padding: 1rem .8rem;
+    right: 2%;
+}
+
+.friends {
+    border: 2px solid #ECEAE7;
+    width: 16rem;
+    margin: auto;
+    margin-top: .7rem;
+}
+
+.recommended-left {
+    width: 16rem;
+}
+
+.recommended-left a img {
+    width: 5rem;
+    height: 4rem;
+    margin-left: 5.3rem;
+    margin-right: 5.5rem;
+    margin-top: .5rem;
+}
+
+.recommended-right {
+    width: 16rem;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+
+.btn {  
+    width: 35%;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-left: 9%;
+   
+}
+.btn-borde {  
+    padding: 6px 20px;
+    position: relative;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    transition: .5s all;
+}
+.btn-borde:after { 
+    transition: .5s all;
+    position: absolute;
+    top: -4px;
+    left: -4px; 
+    right: -4px;
+    bottom: -4px;
+    content: ''; 
+    z-index: -1; 
+    border-radius: 4px;
+}
+
+.hover-fill {  
+    transition: .6s all;
+}
+.hover-fill:hover { 
+    background-color: transparent;
+    color: white;
+}
+.hover-fill.reverse {  
+    background-color: transparent; 
+    color: white;}
+.hover-fill.reverse:hover { 
+    background-color: white; 
+    color: #333;
+}
+
+.hover-cursor {  
+    transition: .6s all;
+}.hover-cursor:after {  
+    background-size: 200% 100%;
+    background-position: 0% 0;
+}.hover-cursor:hover:after {  
+    background-position: 100% 0;
+}
+ #btn-degradado:after {  
+    background-image: radial-gradient(circle at 71.87% 28.13%, #002c76 0, #002a77 8.33%, #002778 16.67%, #002477 25%, #002074 33.33%, #001a70 41.67%, #00126a 50%, #280663 58.33%, #3a005b 66.67%, #460052 75%, #500049 83.33%, #57003f 91.67%, #5c0035 100%);
+}   
+
+
+  

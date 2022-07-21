@@ -1,0 +1,116 @@
+<pre>Array
+(
+    [detalles] => Array
+        (
+            [id] => 9JH61991PG491561G
+            [intent] => CAPTURE
+            [status] => COMPLETED
+            [purchase_units] => Array
+                (
+                    [0] => Array
+                        (
+                            [reference_id] => default
+                            [amount] => Array
+                                (
+                                    [currency_code] => MXN
+                                    [value] => 19.00
+                                )
+
+                            [payee] => Array
+                                (
+                                    [email_address] => sb-2dqui12017448@business.example.com
+                                    [merchant_id] => QMZ984ZALN5SJ
+                                )
+
+                            [soft_descriptor] => PAYPAL *TEST STORE
+                            [shipping] => Array
+                                (
+                                    [name] => Array
+                                        (
+                                            [full_name] => John Doe
+                                        )
+
+                                    [address] => Array
+                                        (
+                                            [address_line_1] => Calle Juarez 1
+                                            [address_line_2] => Col. Cuauhtemoc
+                                            [admin_area_2] => Miguel Hidalgo
+                                            [admin_area_1] => Ciudad de Mexico
+                                            [postal_code] => 11580
+                                            [country_code] => MX
+                                        )
+
+                                )
+
+                            [payments] => Array
+                                (
+                                    [captures] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 3EM983773P343200S
+                                                    [status] => COMPLETED
+                                                    [amount] => Array
+                                                        (
+                                                            [currency_code] => MXN
+                                                            [value] => 19.00
+                                                        )
+
+                                                    [final_capture] => 1
+                                                    [seller_protection] => Array
+                                                        (
+                                                            [status] => ELIGIBLE
+                                                            [dispute_categories] => Array
+                                                                (
+                                                                    [0] => ITEM_NOT_RECEIVED
+                                                                    [1] => UNAUTHORIZED_TRANSACTION
+                                                                )
+
+                                                        )
+
+                                                    [create_time] => 2022-03-28T21:58:22Z
+                                                    [update_time] => 2022-03-28T21:58:22Z
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => Array
+                (
+                    [name] => Array
+                        (
+                            [given_name] => John
+                            [surname] => Doe
+                        )
+
+                    [email_address] => sb-krvlg15437604@personal.example.com
+                    [payer_id] => 989QQL4M2BK5G
+                    [address] => Array
+                        (
+                            [country_code] => MX
+                        )
+
+                )
+
+            [create_time] => 2022-03-28T21:58:10Z
+            [update_time] => 2022-03-28T21:58:22Z
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/9JH61991PG491561G
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                )
+
+        )
+
+)
+</pre>
